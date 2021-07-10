@@ -21,4 +21,4 @@ const filmes = [
 
 const [{id, titulo, descricao, duracao}]  = filmes
 
-filmes.map(filme => console.log(filme.descricao))
+filmes.map(filme => console.log(filme.titulo))
